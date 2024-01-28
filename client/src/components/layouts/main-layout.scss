@@ -8,6 +8,7 @@
   -webkit-font-smoothing: antialiased;
   min-height:65vh;
   background-color: lighten($lemon, 40%);
+  flex-direction: column;
 
   &__title {
     background-color: transparent;
@@ -19,11 +20,11 @@
     text-align: center;
   
     @include respond-medium {
-      font-size: 4rem;
+      font-size: 3rem;
     }
   
     @include respond-large {
-      font-size: 5rem;
+      font-size: 4rem;
     }
   }
 
@@ -62,4 +63,3 @@
     }
   }
 }
-
